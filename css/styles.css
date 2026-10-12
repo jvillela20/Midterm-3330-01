@@ -1,4 +1,8 @@
 
+div #dialog {
+    display: none;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -19,6 +23,12 @@
     --shadow:
         0 10px 30px rgba(0, 0, 0, 0.45),
         0 0 25px rgba(77, 163, 255, 0.08);
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 body {
@@ -139,7 +149,8 @@ body {
 }
 
 .nav-link.active:hover {
-    color: #071426;    
+    color: #071426;
+    background: #CB4900;
     transform: translateY(-2px);
     border-color: rgba(77, 163, 255, 0.18);
     box-shadow: 0 0 15px rgba(246, 196, 83, 0.35);
