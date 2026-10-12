@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planets</title>
+
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+    <script src="./js/planets.js"></script>
+</head>
+
+<body>
+
+    <div class="site-container">
+        <header class="site-header">
+            <div class="site-title"><p>Planets in the Solar System</p></div>
+            <nav class="site-navigation">
+                <a href="https://science.nasa.gov/solar-system/planets/" class="nav-link active">Explore</a>
+                <a href="#" class="nav-link">About</a>
+            </nav>
+        </header>
+    </div>
+
+   <main class="wrapper">
+        <div class="header">
+            <p>Click on the cards to learn more </p>
+        </div>
+        <div id="dialog" title="Properties">
+            <p>
+                <strong>Name: </strong>
+                <span class="name">name</span>
+            </p>
+            <p>
+                <strong>Constellation: </strong>
+                <span class="constellation">constellation</span>
+            </p>
+            <p>
+                <strong>Altitude: </strong>
+                <span class="altitude">altitude</span>
+            </p>
+            <p>
+                <strong>Azimuth: </strong>
+                <span class="azimuth">azimuth</span>
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <section id="footer-section-01" class="footer-section">
+                <h2>About this site</h2>
+                      <div class="form-group">
+                        <p>
+                            Explore the planets of our solar system and discover fascinating facts 
+                            about their properties, locations, and unique characteristics. 
+                            Click on a planet to learn more and continue your journey through space.
+                        </p>
+                    </div>
+            </section>        
+            <section id="footer-section-02" class="footer-section">
+                <form class = "form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <h2>Contact Us</h2>
+                <p>Subscribe for updates about planets, space exploration, and astronomy.</p>
+            </section>
+            <section id="footer-section-03" class="footer-section footer-email">
+                <h2>Explore With Us</h2>
+                <p>Have a question, suggestion, or just want to talk about space?</p>
+                <br>
+                <p class="footer-note">Discover the planets, learn about our solar system, and keep exploring the universe.</p>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Planets in the Solar System by Vaqueros at 3330</p>
+        </div>
+    </footer>
+
+</body>
+</html>
